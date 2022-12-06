@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn phone_sales_4.wsgi --log-file -
+web: python manage.py migrate && gunicorn librarypro.wsgi --log-file -
